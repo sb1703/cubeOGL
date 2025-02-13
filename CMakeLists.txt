@@ -9,6 +9,9 @@ add_executable(cube_opengl_project
     src/config.cpp
     src/main.cpp
     src/glad.c
+    src/cube.cpp
+    src/cube.h
+    src/material.cpp
 )
 
 target_include_directories(cube_opengl_project PRIVATE dependencies)
